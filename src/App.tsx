@@ -26,7 +26,7 @@ const App = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.6 }}
       >
-        <Components.Projects /> 
+         <Components.Testimonials /> 
       </motion.section>
       <motion.section
         initial={{ opacity: 0, y: 50 }}

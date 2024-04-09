@@ -6,13 +6,51 @@ export interface Project {
   date: string;
   location: string;
 }
+export interface Testimonial {
+title : string; 
+description: string;
+file:string
+}
 
 export interface Experience {
   title: string;
   projects: Project[];
 }
 
-// Define the experiences array
+
+export const testimonials: Testimonial[] = [
+  {
+    title: 'Overview on Engineering Cycle',
+    description: 'Responsible for engineering within the SLEAM system, specializing in embedded, ambient, and mobile software.',
+    file: '/Testimonials/CamScanner 04-09-2024 19.25 (1).pdf',
+  },
+  {
+    title: 'Renewable Energy Sustainable',
+    description: 'Development Outrich (SDO)',
+    file: '/Testimonials/CamScanner 04-09-2024 19.25.pdf',
+  },
+  {
+    title: 'Leadership certificate ',
+    description: 'Being a manager(Team leader) in AIESEC Bardo',
+    file: '/Testimonials/CamScanner 04-09-2024 19.26 (1).pdf',
+  },
+  {
+    title: 'Development mobile',
+    description: 'Mobile Application Development for Doctor-Patient Interactions',
+    file: '/Testimonials/CamScanner 04-09-2024 19.27.pdf',
+  },
+  {
+    title: 'Front End developer',
+    description: 'Qramer front end development for interractive educational website',
+    file: '/Testimonials/DX-2500N_20230728_161401.pdf',
+  },
+  {
+    title: 'Machine to Machine',
+    description: 'Head of ESPRIT Universitys "Machine to Machine" research team, highly recommendsfor his diligence, management skills, and academic dedication shown',
+    file: '/Testimonials/lettre de recommandation ahmed khalil.pdf',
+  },
+];
+
 export const experiences: Experience[] = [
   {
     title: 'Work Experience',
