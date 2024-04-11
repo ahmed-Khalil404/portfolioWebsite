@@ -51,13 +51,12 @@ const Skills: React.FC = () => {
     <section id="skills" className="bg-gray-900 py-10">
       <div className="container px-5 mx-auto">
       <div className="text-center mb-8">
-          {/* Render the icons using <img> elements with src attribute pointing to public URL paths */}
           <img
             src={process.env.PUBLIC_URL + "/ChipIcon.png"}
-            className="w-32 inline-block mb-4" // Use custom width class
+            className="w-32 inline-block mb-4" 
             alt="Chip Icon"
           />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1 className="text-4xl font-medium text-whute-500 mb-12">
             My Skills
           </h1>
         </div>

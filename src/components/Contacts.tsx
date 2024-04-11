@@ -117,28 +117,31 @@ const Contact = () => {
                 frameBorder={0}
                 src={`https://www.google.com/maps/embed/v1/place?q=25+Rue+Robert+Latouche,+Nice,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8`}
               />
-            </div>
-          </div>
-
-          {/* Contact Details Section */}
-          <div className="bg-gray-900 rounded-lg p-8 flex flex-col justify-center items-center">
-            <div className="text-center mb-4">
-              <h2 className="text-white text-lg font-medium">Address</h2>
-              <p className="text-gray-400">{address}</p>
-            </div>
-            <div className="text-center mb-4">
-              <h2 className="text-white text-lg font-medium">Email</h2>
-              <a href={`mailto:${emailme}`} className="text-indigo-400 leading-relaxed">
-                {emailme}
-              </a>
-            </div>
-            <div className="text-center">
-              <h2 className="text-white text-lg font-medium">Phone</h2>
-              <p className="text-gray-400">+330769392578</p>
-            </div>
+           </div>
           </div>
         </div>
       </div>
+
+      <footer className="bg-green-900 text-white py-8">
+  <div className="container mx-auto flex flex-col md:flex-row justify-center items-center">
+    <div className="bg-green-900 rounded-lg p-8 flex flex-col justify-center items-center">
+      <div className="text-center mb-4">
+        <h2 className="text-lg font-medium">Address</h2>
+        <p className="text-white">{address}</p>
+      </div>
+      <div className="text-center mb-4">
+        <h2 className="text-lg font-medium">Email</h2>
+        <a href={`mailto:${emailme}`} className="text-white leading-relaxed">
+          {emailme}
+        </a>
+      </div>
+      <div className="text-center">
+        <h2 className="text-lg font-medium">Phone</h2>
+        <p className="text-white">+33 0769392578</p>
+      </div>
+    </div>
+  </div>
+</footer>
     </section>
   );
 };

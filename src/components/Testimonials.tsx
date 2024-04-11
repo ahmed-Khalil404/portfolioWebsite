@@ -8,8 +8,8 @@ const Testimonials: React.FC = () => {
   return (
     <section id="testimonials" className="bg-gray-900 py-20">
       <div className="container mx-auto text-center">
-        <UsersIcon className="w-10 inline-block mb-4 text-white" />
-        <h1 className="text-4xl font-medium text-white mb-12">Testimonials</h1>
+        <UsersIcon className="w-10 inline-block mb-4 text-green-500" /> {/* Changed text color to green */}
+        <h1 className="text-4xl font-medium text-whute-500 mb-12">Testimonials</h1>
         <div className="flex flex-wrap justify-center -m-4">
           {testimonials.map((testimonial, index) => (
             <div
@@ -19,14 +19,10 @@ const Testimonials: React.FC = () => {
               onMouseLeave={() => setHoveredIndex(null)}
             >
               <div
-                className="bg-gray-800 p-6 rounded-lg"
-                style={{
-                  transform: hoveredIndex === index ? 'translateY(-5px)' : 'translateY(0)',
-                  transition: 'transform 0.3s ease',
-                }}
+                className={`bg-green-800 p-6 rounded-lg ${hoveredIndex === index ? 'transform -translate-y-5 transition-transform duration-300 ease' : ''}`}
               >
                 {/* Display the testimonial title with bold font weight */}
-                <p className="text-white font-medium text-lg mb-3 font-bold">{testimonial.title}</p>
+                <p className="text-white font-bold text-lg mb-3">{testimonial.title}</p>
                 {/* Display the testimonial description */}
                 <p className="text-white leading-relaxed mb-6">{testimonial.description}</p>
                 {/* Link to view the testimonial */}
