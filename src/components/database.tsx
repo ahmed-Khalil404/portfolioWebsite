@@ -20,19 +20,24 @@ export interface Experience {
 
 export const testimonials: Testimonial[] = [
   {
+    title: 'Machine to Machine',
+    description: 'Head of ESPRIT Universitys "Machine to Machine" research team, highly recommendsfor his diligence, management skills, and academic dedication shown',
+    file: '/Testimonials/lettre de recommandation ahmed khalil.pdf',
+  },
+  {
+    title: 'Leadership certificate ',
+    description: 'Discover the remarkable impact leadership at AIESEC Bardo, Tunisia, as he spearheaded innovation and collaboration in the Incoming Global Talent Department.',
+    file: '/Testimonials/CamScanner 04-09-2024 19.26 (1).pdf',
+  },
+  {
     title: 'Overview on Engineering Cycle',
     description: 'Responsible for engineering within the SLEAM system, specializing in embedded, ambient, and mobile software.',
     file: '/Testimonials/CamScanner 04-09-2024 19.25 (1).pdf',
   },
   {
     title: 'Renewable Energy Sustainable',
-    description: 'Development Outrich (SDO)',
+    description: 'During his internship at Participatory Development Solutions (ElMahrousa PDS), the candidate demonstrated exceptional dedication and efficiency .',
     file: '/Testimonials/CamScanner 04-09-2024 19.25.pdf',
-  },
-  {
-    title: 'Leadership certificate ',
-    description: 'Being a manager(Team leader) in AIESEC Bardo',
-    file: '/Testimonials/CamScanner 04-09-2024 19.26 (1).pdf',
   },
   {
     title: 'Development mobile',
@@ -44,11 +49,7 @@ export const testimonials: Testimonial[] = [
     description: 'Qramer front end development for interractive educational website',
     file: '/Testimonials/DX-2500N_20230728_161401.pdf',
   },
-  {
-    title: 'Machine to Machine',
-    description: 'Head of ESPRIT Universitys "Machine to Machine" research team, highly recommendsfor his diligence, management skills, and academic dedication shown',
-    file: '/Testimonials/lettre de recommandation ahmed khalil.pdf',
-  },
+
 ];
 
 export const experiences: Experience[] = [
@@ -58,60 +59,61 @@ export const experiences: Experience[] = [
         {
           title: 'BACK END DEVELOPER IoT',
           location: 'Schneider Electric (SAS), Carros France',
-          description: `Développement back-end en C# pour les services de communication IoT chez Schneider Electric, avec focus sur la communication PLC entre dispositifs.`,
-          date: '1/05/2024 - 2/2024',
+          description: `Back-end development in C# for IoT communication services at Schneider Electric, focusing on PLC communication between devices.`,
+          date: '5/01/2024 - 2/2024',
         },
         {
           title: 'Research Paper: Human-centered security and privacy for IoT',
-          location: 'Digital systems for humans, Sophia Antipolis France',
-          description: `Réalisation d'une revue systématique de la littérature (SLR) sur la sécurité et la confidentialité centrées sur l'homme pour les appareils IoT.`,
-          date: '8/03/2024',
+          location: 'Digital Systems for Humans, Sophia Antipolis France',
+          description: `Conducted a systematic literature review (SLR) on human-centered security and privacy for IoT devices.`,
+          date: '3/08/2024',
         },
         {
-          title: 'Développement d’un écosystème IoT automatisé par l\'intelligence artificielle (LLM)',
+          title: 'Development of AI-driven Automated IoT Ecosystem (LLM)',
           location: 'Polytech Nice Sophia, Sophia Antipolis France',
-          description: `Conception et développement d'un écosystème IoT automatisé basé sur l'intelligence artificielle avec un modèle LLM personnalisé. Intégration de Node-RED pour les connexions internes entre appareils IoT, capteurs et actionneurs, permettant une interaction naturelle et personnalisée.`,
+          description: `Designed and developed an AI-driven automated IoT ecosystem with a custom LLM model. Integrated Node-RED for internal connections between IoT devices, sensors, and actuators, enabling natural and personalized interaction.`,
           date: '10/2023 - 2/2024',
         },
         {
           title: 'Android Backend Developer',
           location: 'HOPE HORIZON, Les Berges du Lac, Tunis',
-          description: `J’ai travaillé en tant que développeur Back-End pour une application mobile de chat entre patients et médecins, en utilisant FastAPI en conjonction avec Flutter.`,
-          date: '04/03/2024 - 09/2024',
+          description: `Worked as a Back-End Developer for a mobile chat application between patients and doctors, using FastAPI in conjunction with Flutter.`,
+          date: '3/04/2024 - 9/2024',
         },
         {
-          title: 'LS_SAFE (DRONE DE SECOURISME)',
+          title: 'LS_SAFE (RESCUE DRONE)',
           location: 'Esprit, Ariana, Tunis',
-          description: `LS-Safe : un drone IoT connecté à une ceinture intelligente pour interventions d'urgence en cas de crise cardiaque ou d'accident. Lauréat du Bal de projet 2023. Détails sur GitHub.`,
-          date: '07/2023 - 09/2023',
+          description: `LS-Safe: An IoT drone connected to a smart belt for emergency interventions during cardiac arrest or accidents. Winner of the 2023 Project Bal competition. Details on GitHub.`,
+          date: '7/2023 - 9/2023',
         },
         {
           title: 'FRONT END DEVELOPER',
           location: 'DIGICROSS, Manouba, Tunis',
-          description: `J'ai collaboré au développement Front-End d'un site Web éducatif avec Digicross, où j'ai acquis une expertise significative en utilisant la bibliothèque React.`,
-          date: '07/2023 - 09/2023',
+          description: `Collaborated on Front-End development of an educational website with Digicross, gaining significant expertise using the React library.`,
+          date: '7/2023 - 9/2023',
         },
         {
-          title: 'PROJET BAL D’ESPRIT',
+          title: 'ESPRIT BAL PROJECT',
           location: 'Qasr Ad Dobarah, New Cairo, Egypt',
-          description: `J'ai concouru à Esprit Bal avec une application de gestion de bases de données en langage C, exploitant l'interface GTK.`,
-          date: '07/2023 - 09/2023',
+          description: `Competed at Esprit Bal with a database management application in C language, utilizing the GTK interface.`,
+          date: '7/2023 - 9/2023',
         },
         {
-          title: 'CONSULTANT EN ÉNERGIES RENOUVELABLES',
+          title: 'RENEWABLE ENERGY CONSULTANT',
           location: 'ESPRIT, Ariana, Tunis',
-          description: `J’ai travaillé dans un projet de recherche du Centre de Recherche Mahrousa sur les Objectifs de Développement Durable (ODD), en se concentrant spécifiquement sur l'énergie durable. Notre projet impliquait le déploiement de panneaux solaires (photovoltaïques) à petite échelle`,
-          date: '07/2023 - 09/2023',
+          description: `Worked on a research project at the Mahrousa Research Center on Sustainable Development Goals (SDGs), specifically focusing on sustainable energy. Our project involved deploying small-scale solar (photovoltaic) panels.`,
+          date: '7/2023 - 9/2023',
         },
         {
-          title: 'CONCEPTEUR GRAPHIQUE/GRAPHIC DESIGNER',
-          location: 'HxH electronics, Montfleury, Tunis',
-          description: `J'ai été graphiste chez HX Electric, créant des affiches et des publicités pour les séminaires nationaux.`,
-          date: '07/2023 - 09/2023',
+          title: 'GRAPHIC DESIGNER',
+          location: 'HxH Electronics, Montfleury, Tunis',
+          description: `Graphic Designer at HX Electric, creating posters and advertisements for national seminars.`,
+          date: '7/2023 - 9/2023',
         },
       ],
   },
 ];
+
 
 const Database: React.FC = () => {
   return null; 

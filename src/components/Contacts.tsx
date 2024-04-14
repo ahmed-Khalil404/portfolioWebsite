@@ -9,10 +9,8 @@ const Contact = () => {
   const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
   
-    // Ensure e.target is an HTMLFormElement
     const form = e.target as HTMLFormElement;
   
-    // Send email using EmailJS
     emailjs.sendForm("service_qo5hg6p", "template_qsdwpmj", form, "I1SaKZvoNqawUC9g0")
       .then(() => {
         alert("Message sent!");
@@ -37,7 +35,7 @@ const Contact = () => {
   };
 
   const address = "25 Rue Robert Latouche, Nice, France";
-  const emailme = "bensassiahmedkhalilpro@gmail.com";
+  const emailme = "ahmed-khalil.ben-sassi@etu.univ-cotedazur.fr";
 
   return (
     <section id="contact" className="relative">
